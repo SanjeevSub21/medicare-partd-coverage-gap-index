@@ -47,7 +47,8 @@ The two methods are compared using Spearman rank correlation and the overlap of 
 - Cardiovascular shows a stronger gap in high-burden states, and the two methods disagree, so results should be read with both.
 - Five states appear among the lowest in both conditions: **Delaware, Oklahoma, New Jersey, Florida and Arkansas**.
 
-![US map of states with gaps in both conditions](figures/us_map_gap_states.png)
+<img width="1800" height="1140" alt="us_map_gap_states" src="https://github.com/user-attachments/assets/8882cae2-60d4-49d1-96ab-39d3ea27a678" />
+
 
 ## Repository structure
 
