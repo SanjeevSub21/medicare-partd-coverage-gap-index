@@ -14,7 +14,7 @@ When a state has low prescribing, is it because the disease is less common there
 | Population | Medicare Monthly Enrollment | 2024 |
 | Disease burden | Mapping Medicare Disparities tool | 2023 |
 
-Coverage: 50 states and the District of Columbia. See `data/README.md` for how to download the files.
+Coverage: 50 states and the District of Columbia.
 
 Drug groups analysed:
 - **Diabetes:** metformin, insulin, SGLT-2 inhibitors, GLP-1 agonists, DPP-4 inhibitors (195.6M fills)
@@ -49,24 +49,6 @@ The two methods are compared using Spearman rank correlation and the overlap of 
 
 <img width="1800" height="1140" alt="us_map_gap_states" src="https://github.com/user-attachments/assets/8882cae2-60d4-49d1-96ab-39d3ea27a678" />
 
-
-## Repository structure
-
-```
-src/        analysis code
-results/    state-level index tables
-figures/    charts and map
-data/       instructions for downloading the CMS files
-```
-
-## How to run
-
-```bash
-pip install -r requirements.txt
-python src/coverage_gap_index.py
-```
-
-Download the CMS files first (see `data/README.md`) and place them in the `data/` folder.
 
 ## Limitations
 
